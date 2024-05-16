@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AIR.css">
+    <title>Air Pollution</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqgFZcefq2VdpI29owo9Ez3X4VBgyxOtw&libraries=places"></script> -->
+</head>
+<body>
+    <main id="OneMain">
+        <div id="first">
+            <div id="Second_Main">
+                   <div id="AkPhoto">
+                    <div id="AkPhoto2">
+                        <h1 id="MainText" >Air Pollution In Your Area .</h1>
+                        <div id="TwoTEXT">
+                            <h2 id="CityName">City-Name</h2><h3 id="Viram">:</h3><h2 id="AirQuality">Air-quality</h2>
+                        </div>
+                        </div>
+                   </div>
+
+                   <div id="GasesBox">
+                        <div id="FirstThree">
+                                <span>Carbon monoxide (CO) :</span>
+                                <span id="Carbon_monoxide">null</span>
+                                <span>Nitrogen monoxide (NO) :</span>
+                                <span id="Nitrogen_monoxide">null</span>
+                                <span>Nitrogen dioxide (NO2) :</span>
+                                <span id="Nitrogen_dioxide">null</span>
+                        </div>
+                        <div id="SecondThree">
+                                <span>Ozone (O3) :</span>
+                                <span id="Ozone">null</span>
+                                <span>Sulphur dioxide (SO2) :</span>
+                                <span id="Sulphur_dioxide">null</span>
+                                <span>Ammonia (NH3) :</span>
+                                <span id="Ammonia">null</span>
+                        </div>
+                   </div>
+                   
+                   <div id="Search_Box">
+                          <a href="index1.html">  <button id="Search1" > Citie's</button></a>
+                            <input id="InputHere" type="text" placeholder="Search Your City">
+                            <button id="Search">Search</button>
+                   </div>
+            </div>
+        </div>
+    </main>
+    <!-- <script type="text/javascript">
+        $(document).ready(()=>{
+            var autoComplete;
+            var id = 'InputHere';
+            autoComplete = new google.maps.places.Autocomplete((document.getElementById(id)),{
+                types:['geocode'],
+            })
+            google.maps.event.addListener(autoComplete,'place_changed',()=>{
+             var place = autoComplete.getPlace();
+                jQuery("lat").val(place.geometry.location.lat());
+                jQuery("long").val(place.geometry.location.lng());
+            })
+        });
+    </script> -->
+    <script src="AIR.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+SearchBox.addEventListener("click",()=>{
+    const cityNameIn =  CityNameInput.value;
+    console.log(cityNameIn);
+if (CityNameInput.innerText === "jabalpur" || "Jabalpur") {
+    CityName.innerText = "Jabalpur";
+    ApiFunction(23.1686, 79.9339);
+} else
+
+ if(CityNameInput.value === "Delhi" || "delhi"){
+    CityName.innerText = "Delhi";
+    ApiFunction(28.7041,77.1025);
+} else if(CityNameInput.value === "Mumbai" || "mumbai"){
+    CityName.innerText = "Mumbai";
+    ApiFunction(19.0760, 72.8777);
+} else if(CityNameInput.value === "Noida" || "noida"){
+    CityName.innerText = "Noida";
+    ApiFunction(28.5355,77.3910);
+}else if(CityNameInput.innerText === "Haryana" || "haryana"){
+    ApiFunction(29.0588,76.0856);
+}else if(CityNameInput.innerText === "kolkata" || "Kolkata"){
+        ApiFunction(22.5744,88.3629);
+}else if(CityNameInput.innerText === "Pune" || "pune"){
+    ApiFunction(18.5204,73.8567);
+}else if(CityNameInput.innerText === "Jaipur " || "jaipur"){
+    ApiFunction(26.9124,75.7873);
+}else if(CityNameInput.innerText === "Bhopal" || "bhopal"){
+    ApiFunction(23.2599,77.4126);
+}else if(CityNameInput.innerText === "indore" || "indore"){
+    ApiFunction(22.7196,75.8577);
+}else if(CityNameInput.innerText === "Pune" || "pune"){
+    ApiFunction(18.5204,73.8567);
+}else if(CityNameInput.innerText === "Pune" || "pune"){
+    ApiFunction(18.5204,73.8567);
+}else if (CityNameInput.innerText === "New Delhi" ||  "new delhi") {
+    ApiFunction(28.6139, 77.2090);
+} else if (CityNameInput.innerText === "Beijing" || "beijing") {
+    ApiFunction(39.9042, 116.4074);
+} else if (CityNameInput.innerText === "Lahore" ||  "lahore") {
+    ApiFunction(31.5497, 74.3436);
+} else if (CityNameInput.innerText === "Dhaka" || "dhaka") {
+    ApiFunction(23.8103, 90.4125);
+} else if (CityNameInput.innerText === "Jakarta" ||  "jakarta") {
+    ApiFunction(-6.2088, 106.8456);
+} else if (CityNameInput.innerText === "Cairo" ||  "cairo") {
+    ApiFunction(30.0444, 31.2357);
+} else if (CityNameInput.innerText === "Tehran" ||  "tehran") {
+    ApiFunction(35.6892, 51.3890);
+} else if (CityNameInput.innerText === "Istanbul" || "istanbul") {
+    ApiFunction(41.0082, 28.9784);
+} else if (CityNameInput.innerText === "Mexico City" ||  "mexico city") {
+    ApiFunction(19.4326, -99.1332);
+} else if (CityNameInput.innerText === "Los Angeles" || "los angeles") {
+    ApiFunction(34.0522, -118.2437);
+} else if (CityNameInput.innerText === "Karachi" || "karachi") {
+    ApiFunction(24.8607, 67.0011);
+} else if (CityNameInput.innerText === "Mumbai" || "mumbai") {
+    ApiFunction(19.0760, 72.8777);
+} else if (CityNameInput.innerText === "Kolkata" ||  "kolkata") {
+    ApiFunction(22.5726, 88.3639);
+} else if (CityNameInput.innerText === "Shanghai" ||"shanghai") {
+    ApiFunction(31.2304, 121.4737);
+} else if (CityNameInput.innerText === "Manila" ||  "manila") {
+    ApiFunction(14.5995, 120.9842);
+} else if (CityNameInput.innerText === "Bangkok" ||  "bangkok") {
+    ApiFunction(13.7563, 100.5018);
+} else if (CityNameInput.innerText === "Lima" || "lima") {
+    ApiFunction(-12.0464, -77.0428);
+} else if (CityNameInput.innerText === "Santiago" || "santiago") {
+    ApiFunction(-33.4489, -70.6693);
+} else if (CityNameInput.innerText === "Moscow" || "moscow") {
+    ApiFunction(55.7558, 37.6173);
+} else if (CityNameInput.innerText === "Sao Paulo" || "sao paulo") {
+    ApiFunction(-23.5505, -46.6333);
+}else if (CityNameInput.innerText === "Kanpur" ||  "kanpur") {
+    ApiFunction(26.4499, 80.3319);
+} else if (CityNameInput.innerText === "Lucknow" ||  "lucknow") {
+    ApiFunction(26.8467, 80.9462);
+} else if (CityNameInput.innerText === "Varanasi" || "varanasi") {
+    ApiFunction(25.3176, 82.9739);
+} else if (CityNameInput.innerText === "Patna" || "patna") {
+    ApiFunction(25.5941, 85.1376);
+} else if (CityNameInput.innerText === "Gurugram" || "gurugram") {
+    ApiFunction(28.4595, 77.0266);
+} else if (CityNameInput.innerText === "Faridabad" ||  "faridabad") {
+    ApiFunction(28.4089, 77.3178);
+} else if (CityNameInput.innerText === "Ghaziabad" ||  "ghaziabad") {
+    ApiFunction(28.6692, 77.4538);
+} else if (CityNameInput.innerText === "Noida" || "noida") {
+    ApiFunction(28.5355, 77.3910);
+} else if (CityNameInput.innerText === "Meerut" ||"meerut") {
+    ApiFunction(28.9845, 77.7064);
+} else if (CityNameInput.innerText === "Agra" || "agra") {
+    ApiFunction(27.1767, 78.0081);}
+else {
+    console.log("City not found. Please enter a valid city name.");
+}
+})
